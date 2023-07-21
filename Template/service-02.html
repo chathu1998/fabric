@@ -13,10 +13,14 @@
 <link rel="shortcut icon" href="images/favicon.ico" />
 
 <!-- font -->
-<link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,500,500i,600,700,800,900|Poppins:200,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900">
+<link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:200,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900">
+<link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
 
 <!-- Plugins -->
 <link rel="stylesheet" type="text/css" href="css/plugins-css.css" />
+
+<!-- revoluation -->
+<link rel="stylesheet" type="text/css" href="revolution/css/settings.css" media="screen" />
 
 <!-- Typography -->
 <link rel="stylesheet" type="text/css" href="css/typography.css" />
@@ -27,8 +31,14 @@
 <!-- Style -->
 <link rel="stylesheet" type="text/css" href="css/style.css" />
 
+<!-- barber -->
+<link rel="stylesheet" type="text/css" href="demo-categories/barber/css/barber.css" />
+
 <!-- Responsive -->
 <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+
+<!-- Style customizer -->
+<link rel="stylesheet" type="text/css" href="css/skins/skin-gold.css" data-style="styles"/>
 
 <!--Theme color-->
 <link rel="stylesheet" type="text/css" href="css/skins/skin-blue.css" />
@@ -43,84 +53,72 @@
  preloader -->
 
 <div id="pre-loader">
-    <img src="images/pre-loader/loader-01.svg" alt="">
+    <img src="images/pre-loader/loader-05.svg" alt="">
 </div>
 
 <!--=================================
  preloader -->
 
-
 <!--=================================
  header -->
 
-<header id="header" class="header default">
-  <div class="topbar">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-6 col-md-6 xs-mb-10">
-        <div class="topbar-call text-center text-md-start">
-          <ul>
-            <li><i class="fa fa-envelope-o theme-color"></i> gethelp@webster.com</li>
-             <li><i class="fa fa-phone"></i> <a href="tel:+7042791249"> <span>+(704) 279-1249 </span> </a> </li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-lg-6 col-md-6">
-        <div class="topbar-social text-center text-md-end">
-          <ul>
-            <li><a href="#"><span class="ti-facebook"></span></a></li>
-            <li><a href="#"><span class="ti-instagram"></span></a></li>
-            <li><a href="#"><span class="fa fa-google"></span></a></li>
-            <li><a href="#"><span class="ti-twitter"></span></a></li>
-            <li><a href="#"><span class="ti-linkedin"></span></a></li>
-            <li><a href="#"><span class="ti-dribbble"></span></a></li>
-          </ul>
-        </div>
-      </div>
-     </div>
-  </div>
-</div>
+<header id="header" class="header light logo-center barber-header">
 
 <!--=================================
  mega menu -->
 
- <div class="menu">
-  <div class="container">
-    <div class="row">
-     <div class="col-lg-12 col-md-12">
-     <!-- menu start -->
-       <nav id="menu" class="mega-menu">
-        <!-- menu list items container -->
-        <section class="menu-list-items">
+<div class="menu">
+  <!-- menu start -->
+   <nav id="menu" class="mega-menu">
+    <!-- menu list items container -->
+    <section class="menu-list-items">
+     <div class="container">
+      <div class="row">
+       <div class="col-lg-12 col-md-8 position-relative">
         <!-- menu logo -->
-        <ul class="menu-logo">
+         <ul class="menu-logo">
+            <li class="topbar-social">
+              <div class="social-icons color-hover clearfix text-md-start">
+                <ul>
+                  <li class="social-facebook"><a href="#"><span class="ti-facebook"></span></a></li>
+                  <li class="social-instagram"><a href="#"><span class="ti-instagram"></span></a></li>
+                  <li class="social-google"><a href="#"><span class="fa fa-google"></span></a></li>
+                  <li class="social-twitter"><a href="#"><span class="ti-twitter"></span></a></li>
+                </ul>
+              </div>
+            </li>
             <li>
-                <a href="index-01.html"><img id="logo_img" src="images/.png" alt="logo"> </a>
+                <a href="index-barber.html"><img  src="demo-categories/barber/images/tms.jpg" alt="logo"> </a>
+            </li>
+            <li class="topbar-telephone">
+              <div class="telephone">
+                <p class="uppercase mb-0">telephone</p>
+                <p class="theme-color">+(704) 279-1249</p>
+              </div>
             </li>
         </ul>
         <!-- menu links -->
         <div class="menu-bar">
-         <ul class="menu-links">
-         <li><a href="./index.html">Home </a>
+          <ul class="menu-links">
+            <li><a href="./index.html">Home </a>
                 
             </li>
             <li><a href="./about-06.html"> About Us </a>
                  
             </li>
-
-            <li><a href="#">Products <i class="fa fa-angle-down fa-indicator"></i></a>
+            <li><a href="#">Products<i class="fa fa-angle-down fa-indicator"></i></a>
               <!-- drop down multilevel  -->
               <ul class="drop-down-multilevel left-side">
 
                 <li><a href="./shop-home-07.html">Woven </a>
                   
                 </li>
-                <li><a href="./shop-home-06.html">Knit</a>
+                <li><a href="./shop-home-06.html">Knit </a>
                   
                 </li>   
                 
             </ul>
-          </li>
+            </li>
             
             <li><a href="#">Services <i class="fa fa-angle-down fa-indicator"></i></a>
                 <!-- drop down multilevel  -->
@@ -130,6 +128,9 @@
                     
                   </li>
                   <li><a href="./service-02.html">Quality Assurance </a>
+                    
+                  </li>
+                  <li><a href="./service-05.html">Merchandising</a>
                     
                   </li>   
                   
@@ -154,48 +155,33 @@
                 </li>
                 <li><a href="./contact-02.html">Bangladesh </a>
                   
-                </li>    
-                
-            </ul>
-              
-            </li>
-        </ul>
-        <div class="search-cart">
-          <div class="search">
-            <a class="search-btn not_click" href="javascript:void(0);"></a>
-              <div class="search-box not-click">
-                 <form action="search.html" method="get">
-                  <input type="text"  class="not-click form-control" name="search" placeholder="Search.." value="" >
-                  <button class="search-button" type="submit"> <i class="fa fa-search not-click"></i></button>
-                </form>
-           </div>
-          </div>
-         </div>
+                </li>   
+                </ul>
+              </li>
+          </ul>
         </div>
-       </section>
-       </nav>
        </div>
+      </div>
      </div>
-    </div>
-   </div>
+    </section>
+   </nav>
   <!-- menu end -->
  </div>
 </header>
 
 <!--=================================
  header -->
-
-
+ 
 <!--=================================
 page-title-->
 
-<section class="page-title bg-overlay-black-60 parallax" data-jarallax='{"speed": 0.6}' style="background-image: url(images/bg/close-up-hands-holding-color-palette.jpg);">
+<section class="page-title bg-overlay-black-60 parallax" data-jarallax='{"speed": 0.6}' style="background-image: url(images/bg/30.jpg);">
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
       <div class="page-title-name">
           <h1>Quality Assurance</h1>
-          <p>We know the secret of your success</p>
+          <p>We Know The Secret Of Your Success</p>
         </div>
           <ul class="page-breadcrumb">
             <li><a href="#"><i class="fa fa-home"></i> Home</a> <i class="fa fa-angle-double-right"></i></li>
@@ -210,10 +196,11 @@ page-title-->
 <!--=================================
 page-title -->
 
+
 <!--=================================
  service-->
 
- <section class="service white-bg page-section-ptb">
+<section class="service white-bg page-section-ptb">
   <div class="container">
     <div class="row justify-content-center">
          <div class="col-lg-8">
@@ -232,16 +219,17 @@ page-title -->
       <div class="container">
         <div class="row">
           <div class="col-md-6 sm-mb-30">
-            <p class="mb-20">At TMS (PVT) LTD, we take pride in our extensive fabric sourcing network, which spans both global and local suppliers. We collaborate with the biggest and best textile manufacturers that prioritize sustainable practices and invest in cutting-edge technologies to produce high-quality fabrics. Additionally, we foster partnerships with skilled spinners and weavers who are dedicated to preserving traditional craftsmanship.</p>
-            <p class="mb-20">Our global fabric sourcing approach allows us to tap into a diverse range of materials, including innovative high-tech fabrics and new-age materials. By working with renowned manufacturers worldwide, we ensure access to a vast selection of fabrics that meet the highest standards of quality, performance, and sustainability.</p>
-            <p class="mb-20">Simultaneously, we value local partnerships and recognize the importance of supporting artisans and traditional craft communities. We actively engage with ambitious spinners and weavers who specialize in time-honored techniques, ensuring the preservation of cultural heritage and promoting ethical practices.</p>
+            <p class="mb-20">At TMS (PVT) LTD, we take fabric quality assurance seriously to ensure that our clients receive only the finest fabrics available in the market. Our commitment to quality extends throughout our global and local sourcing network, where we partner with renowned textile manufacturers known for their dedication to stringent quality control processes and investment in state-of-the-art technologies.</p>
+            <p class="mb-20">Throughout the fabric quality assurance process, our experienced team follows a comprehensive approach to guarantee the highest standard of fabrics. We conduct meticulous testing, inspection, and verification procedures to assess various aspects of the fabric's quality. This includes evaluating the integrity of the fibers used in the fabric construction, conducting colorfastness tests to ensure long-lasting colors, assessing dimensional stability to maintain the fabric's shape, and examining fabric construction parameters such as thread count and weave structure to ensure durability and performance.
+            </p>
             <img class="img-fluid" src="images/about/01.jpg" alt="">
           </div>
           <div class="col-md-6">
             <img class="img-fluid" src="images/about/02.jpg" alt="">
-            <p class="mt-20">Whether it's sourcing eco-friendly textiles made from recycled materials or discovering unique handcrafted fabrics, we prioritize the needs and preferences of our clients. Our experienced team diligently researches and evaluates suppliers based on their expertise, production capabilities, ethical practices, and adherence to sustainability standards.</p>
-            <p class="mt-20">At TMS (PVT) LTD, we understand the significance of responsible sourcing. By combining global reach with a commitment to supporting local communities, we offer a diverse fabric selection that aligns with the values of our clients. Our aim is to provide you with fabrics that not only meet your specific requirements but also contribute to a more sustainable and socially responsible textile industry.</p>
-            <p class="mt-20">Partner with us for your fabric sourcing needs, and let us connect you with the finest manufacturers and artisans who share our passion for quality, innovation, and sustainability.</p>
+            <p class="mt-20">Additionally, we conduct performance testing to assess specific attributes such as abrasion resistance, pilling resistance, moisture-wicking capabilities, and breathability. We also ensure compliance with relevant industry standards and certifications, such as eco-friendly certifications or specific performance standards required by our clients.
+            </p>
+            <p class="mt-20">Our commitment to fabric quality assurance extends beyond laboratory testing. We closely monitor production stages to implement stringent quality control measures, ensuring that potential defects or inconsistencies are detected and resolved promptly.</p>
+            <p class="mt-20">By upholding rigorous fabric quality assurance practices, we strive to provide our clients with fabrics of exceptional quality, durability, and performance. We are dedicated to delivering fabrics that not only meet but exceed our client's expectations.</p>
           </div>
         </div>
       </div>
@@ -253,66 +241,8 @@ page-title -->
 <!--=================================
  service-->
 
-
-<!--=================================
- like-template -->
-
-<section class="page-section-ptb parallax bg-overlay-black-70 parallax" data-jarallax='{"speed": 0.6}' style="background: url(images/bg/detail-color-fabric-texture-samples.jpg);">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 col-md-12 text-center position-relative">
-        <h2 class="text-white">Topic </h2>
-        <p class="text-white"> Sub Topic</p>
-     </div>
-  </div>
- </div>
-</section>
-
-<!--=================================
- like-template -->
-
-
-<!--=================================
- Premium Features -->
-
-<section class="white-bg page-section-ptb">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-6">
-        <div class="section-title">
-            <h6>Who we are and what we do</h6>
-            <h2 class="title-effect">Get to know us better.</h2>
-            <p>key performance indicators of the b&n QC team based in the mills are : </p>
-          </div>
-          <p>Let's make something great together consectetur adipisicing elit. <span class="theme-color" data-bs-toggle="tooltip" data-bs-placement="top" title="HTML5 template">Webster</span>  conseqt quibusdam, enim expedita sed quia nesciunt. Vero quod conseqt quibusdam, enim expedita sed quia nesciunt incidunt accusamus necessitatibus</p>
-         <div class="row mt-30">
-          <div class="col-md-6">
-            <ul class="list list-unstyled list-hand">
-              <li> Award-winning design</li>
-              <li> Super Fast Customer support </li>
-            </ul>
-          </div>
-          <div class="col-md-6">
-            <ul class="list list-unstyled list-hand">
-              <li> Easy to Customize pages</li>
-              <li> Powerful Performance </li>
-            </ul>
-          </div>
-         </div>
-      </div>
-     <div class="col-lg-6 sm-mt-50">
-        <img class="img-fluid mx-auto" src="images/about/01.jpg" alt="">
-     </div>
-   </div>
-  </div>
-</section>
-
-<!--=================================
- Premium Features -->
-
 <!--=================================
  footer -->
-
  <footer class="footer page-section-pt black-bg">
   <div class="container">
    <div class="row">
@@ -391,15 +321,16 @@ page-title -->
    </div>
  </footer>
  
+ 
 
 <!--=================================
  footer -->
 
-</div>
+ </div>
 
 <div id="back-to-top"><a class="top arrow" href="#top"><i class="fa fa-angle-up"></i> <span>TOP</span></a></div>
 
-<!--=================================
+ <!--=================================
  jquery -->
 
 <!-- jquery -->

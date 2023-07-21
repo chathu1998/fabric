@@ -13,10 +13,14 @@
 <link rel="shortcut icon" href="images/favicon.ico" />
 
 <!-- font -->
-<link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,500,500i,600,700,800,900|Poppins:200,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900">
+<link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:200,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900">
+<link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
 
 <!-- Plugins -->
 <link rel="stylesheet" type="text/css" href="css/plugins-css.css" />
+
+<!-- revoluation -->
+<link rel="stylesheet" type="text/css" href="revolution/css/settings.css" media="screen" />
 
 <!-- Typography -->
 <link rel="stylesheet" type="text/css" href="css/typography.css" />
@@ -27,11 +31,17 @@
 <!-- Style -->
 <link rel="stylesheet" type="text/css" href="css/style.css" />
 
-<!-- shop -->
-<link href="css/shop.css" rel="stylesheet" type="text/css" />
+<!-- barber -->
+<link rel="stylesheet" type="text/css" href="demo-categories/barber/css/barber.css" />
 
 <!-- Responsive -->
 <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+
+<!-- Style customizer -->
+<link rel="stylesheet" type="text/css" href="css/skins/skin-gold.css" data-style="styles"/>
+
+<!--Theme color-->
+<link rel="stylesheet" type="text/css" href="css/skins/skin-blue.css" />
 
 </head>
 
@@ -43,7 +53,7 @@
  preloader -->
 
 <div id="pre-loader">
-    <img src="images/pre-loader/loader-12.svg" alt="">
+    <img src="images/pre-loader/loader-05.svg" alt="">
 </div>
 
 <!--=================================
@@ -52,55 +62,45 @@
 <!--=================================
  header -->
 
- <header id="header" class="header default">
-  <div class="topbar">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-6 col-md-6 xs-mb-10">
-        <div class="topbar-call text-center text-md-start">
-          <ul>
-            <li><i class="fa fa-envelope-o theme-color"></i> gethelp@webster.com</li>
-             <li><i class="fa fa-phone"></i> <a href="tel:+7042791249"> <span>+(704) 279-1249 </span> </a> </li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-lg-6 col-md-6">
-        <div class="topbar-social text-center text-md-end">
-          <ul>
-            <li><a href="#"><span class="ti-facebook"></span></a></li>
-            <li><a href="#"><span class="ti-instagram"></span></a></li>
-            <li><a href="#"><span class="fa fa-google"></span></a></li>
-            <li><a href="#"><span class="ti-twitter"></span></a></li>
-            <li><a href="#"><span class="ti-linkedin"></span></a></li>
-            <li><a href="#"><span class="ti-dribbble"></span></a></li>
-          </ul>
-        </div>
-      </div>
-     </div>
-  </div>
-</div>
+<header id="header" class="header light logo-center barber-header">
 
 <!--=================================
  mega menu -->
 
- <div class="menu">
-  <div class="container">
-    <div class="row">
-     <div class="col-lg-12 col-md-12">
-     <!-- menu start -->
-       <nav id="menu" class="mega-menu">
-        <!-- menu list items container -->
-        <section class="menu-list-items">
+<div class="menu">
+  <!-- menu start -->
+   <nav id="menu" class="mega-menu">
+    <!-- menu list items container -->
+    <section class="menu-list-items">
+     <div class="container">
+      <div class="row">
+       <div class="col-lg-12 col-md-8 position-relative">
         <!-- menu logo -->
-        <ul class="menu-logo">
+         <ul class="menu-logo">
+            <li class="topbar-social">
+              <div class="social-icons color-hover clearfix text-md-start">
+                <ul>
+                  <li class="social-facebook"><a href="#"><span class="ti-facebook"></span></a></li>
+                  <li class="social-instagram"><a href="#"><span class="ti-instagram"></span></a></li>
+                  <li class="social-google"><a href="#"><span class="fa fa-google"></span></a></li>
+                  <li class="social-twitter"><a href="#"><span class="ti-twitter"></span></a></li>
+                </ul>
+              </div>
+            </li>
             <li>
-                <a href="index-01.html"><img id="logo_img" src="images/.png" alt="logo"> </a>
+                <a href="index-barber.html"><img  src="demo-categories/barber/images/tms.jpg" alt="logo"> </a>
+            </li>
+            <li class="topbar-telephone">
+              <div class="telephone">
+                <p class="uppercase mb-0">telephone</p>
+                <p class="theme-color">+(704) 279-1249</p>
+              </div>
             </li>
         </ul>
         <!-- menu links -->
         <div class="menu-bar">
-         <ul class="menu-links">
-         <li><a href="./index.html">Home </a>
+          <ul class="menu-links">
+            <li><a href="./index.html">Home </a>
                 
             </li>
             <li><a href="./about-06.html"> About Us </a>
@@ -113,12 +113,12 @@
                 <li><a href="./shop-home-07.html">Woven </a>
                   
                 </li>
-                <li><a href="./shop-home-06.html">Knit</a>
+                <li><a href="./shop-home-06.html">Knit </a>
                   
                 </li>   
                 
             </ul>
-          </li>
+            </li>
             
             <li><a href="#">Services <i class="fa fa-angle-down fa-indicator"></i></a>
                 <!-- drop down multilevel  -->
@@ -128,6 +128,9 @@
                     
                   </li>
                   <li><a href="./service-02.html">Quality Assurance </a>
+                    
+                  </li>
+                  <li><a href="./service-05.html">Merchandising</a>
                     
                   </li>   
                   
@@ -142,28 +145,26 @@
             <li><a href="./careers.html"> Careers</a>
               
             </li>
-            <li><a href="./contact-03.html"> Contact Us</a>
-              
-            </li>
-        </ul>
-        <div class="search-cart">
-          <div class="search">
-            <a class="search-btn not_click" href="javascript:void(0);"></a>
-              <div class="search-box not-click">
-                 <form action="search.html" method="get">
-                  <input type="text"  class="not-click form-control" name="search" placeholder="Search.." value="" >
-                  <button class="search-button" type="submit"> <i class="fa fa-search not-click"></i></button>
-                </form>
-           </div>
-          </div>
-         </div>
+            
+            <li><a href="./contact-03.html"> Contact Us <i class="fa fa-angle-down fa-indicator"></i></a>
+              <!-- drop down multilevel  -->
+              <ul class="drop-down-multilevel left-side">
+
+                <li><a href="./contact-03.html">Sri Lanka </a>
+                  
+                </li>
+                <li><a href="./contact-02.html">Bangladesh </a>
+                  
+                </li>   
+                </ul>
+              </li>
+          </ul>
         </div>
-       </section>
-       </nav>
        </div>
+      </div>
      </div>
-    </div>
-   </div>
+    </section>
+   </nav>
   <!-- menu end -->
  </div>
 </header>
@@ -204,10 +205,8 @@ about -->
        <div class="col-lg-8">
            <div class="text-center">
             <h2 class="mb-30">About Knit Fabric</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+            <p>Knit fabric is a type of textile material created by interlocking loops of yarn, forming a series of interconnected rows. Unlike woven fabric, which is created by interlacing yarns at right angles, knit fabric is made by continuously looping yarns together. This looping creates a flexible and stretchable fabric with a unique texture. Knit fabrics offer excellent elasticity, allowing them to stretch and recover their shape. They are comfortable to wear and provide a close fit to the body. Knit fabrics can be made from various types of yarns, such as cotton, wool, polyester, or blends, resulting in different characteristics and properties. They are commonly used in garments like sweaters, t-shirts, socks, and activewear, as well as in other applications like blankets and upholstery. Knit fabrics are valued for their comfort, stretchability, and versatility in creating garments and textiles.
             </p>
-            <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</P>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
           </div>
         </div>
      </div>
@@ -227,20 +226,20 @@ product -->
      <div class="col-md-12">
          <div class="section-title text-center">
             <h2 class="title-effect">Knit Fabric Types</h2>
-            <p><h6>Exploring Common Knit Fabric Types</h6></p>
-          </div>
+            <p><h5>Exploring Common Knit Fabric Types</h5></p>
+            </div>
        </div>
     </div>
       <div class="row">
       <div class="col-md-4 col-sm-4 xs-mb-30">
         <div class="product mt-80">
              <div class="product-image">
-                 <img class="img-fluid mx-auto" src="images/shop/27.jpg" alt="">
+                 <img class="img-fluid mx-auto" src="images/shop/JerceyKnit.jpg" alt="">
               </div>
               <div class="product-des">
                  <div class="product-title">
-                   <a class="text-black">Product name</a>
-                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                   <a class="text-black"><h5>Jersey Knit</h5></a>
+                   <p>Jersey is a lightweight, single-knit fabric with a smooth and flat surface. It has a good amount of stretch and is commonly used for T-shirts, dresses, and casual garments.</p>
                  </div>
             </div>
          </div>
@@ -248,12 +247,13 @@ product -->
       <div class="col-md-4 col-sm-4 xs-mb-30">
         <div class="product mt-40">
              <div class="product-image">
-                 <img class="img-fluid mx-auto" src="images/shop/28.jpg" alt="">
+                 <img class="img-fluid mx-auto" src="images/shop/InterlockKnit.jpg" alt="">
               </div>
               <div class="product-des">
                  <div class="product-title">
-                   <a class="text-black">Product name</a>
-                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                   <a class="text-black"><h5>Interlock Knit</h5></a>
+                   <p>Interlock knit is a double-knit fabric with two layers of stitches that create a smooth and stable fabric. It has a higher degree of stretch and recovery compared to jersey knit, making it suitable for fitted garments.
+                  </p>
                  </div>
             </div>
          </div>
@@ -261,12 +261,12 @@ product -->
       <div class="col-md-4 col-sm-4 xs-mb-30">
         <div class="product">
              <div class="product-image">
-                 <img class="img-fluid mx-auto" src="images/shop/27.jpg" alt="">
+                 <img class="img-fluid mx-auto" src="images/shop/RibKnit.jpg" alt="">
               </div>
               <div class="product-des">
                  <div class="product-title">
-                   <a class="text-black">Product name</a>
-                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                   <a class="text-black"><h5>Rib Knit</h5></a>
+                   <p>Rib knit fabrics have raised vertical lines or ribs alternating with recessed rows. They are often used for cuffs, collars, and waistbands, as the ribbing provides elasticity and a snug fit.</p>
                  </div>
             </div>
          </div>
@@ -276,12 +276,12 @@ product -->
       <div class="col-md-4 col-sm-4">
         <div class="product mt-80">
              <div class="product-image">
-                 <img class="img-fluid mx-auto" src="images/shop/30.jpg" alt="">
+                 <img class="img-fluid mx-auto" src="images/shop/FrenchTerry1.jpg" alt="">
               </div>
               <div class="product-des">
                  <div class="product-title">
-                   <a class="text-black">Product name</a>
-                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                   <a class="text-black"><h5>French Terry</h5></a>
+                   <p>French Terry is a knit fabric with loops on one side and a smooth surface on the other. It is soft, absorbent, and comfortable, making it ideal for sweatshirts, loungewear, and athleisure garments.</p>
                  </div>
             </div>
          </div>
@@ -289,12 +289,13 @@ product -->
       <div class="col-md-4 col-sm-4 xs-mb-30">
         <div class="product mt-40">
              <div class="product-image">
-                 <img class="img-fluid mx-auto" src="images/shop/29.jpg" alt="">
+                 <img class="img-fluid mx-auto" src="images/shop/PonteKnit.jpeg" alt="">
               </div>
               <div class="product-des">
                  <div class="product-title">
-                   <a class="text-black">Product name</a>
-                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                   <a class="text-black"><h5>Ponte Knit</h5></a>
+                   <p>Ponte knit is a heavier and more stable double-knit fabric with a firm texture. It has a good amount of stretch and recovery and is often used for structured garments like skirts, pants, and jackets.
+                  </p>
                  </div>
             </div>
          </div>
@@ -302,17 +303,32 @@ product -->
       <div class="col-md-4 col-sm-4">
         <div class="product">
              <div class="product-image">
-                 <img class="img-fluid mx-auto" src="images/shop/30.jpg" alt="">
+                 <img class="img-fluid mx-auto" src="images/shop/JacquardKnit.jpg" alt="">
               </div>
               <div class="product-des">
                  <div class="product-title">
-                   <a class="text-black">Product name</a>
-                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                   <a class="text-black"><h5>Jacquard Knit</h5></a>
+                   <p>Jacquard knit fabrics feature intricate patterns or designs that are knitted into the fabric using a jacquard mechanism. They can range from simple patterns to complex motifs and are often used for stylish sweaters and dresses.</p>
                  </div>
             </div>
          </div>
       </div>
     </div>
+    <div class="row">
+      <div class="col-md-4 col-sm-4 xs-mb-30">
+        <div class="product mt-80">
+             <div class="product-image">
+                 <img class="img-fluid mx-auto" src="images/shop/BrushBack.jpg" alt="">
+              </div>
+              <div class="product-des">
+                 <div class="product-title">
+                   <a class="text-black"><h5>Brush Back</h5></a>
+                   <p>Brush back in knit refers to a type of fabric where one side is brushed to create a soft, fuzzy texture, while the other side remains smooth. It is often used in sweatshirts and activewear for its comfortable and cozy feel against the skin.</p>
+                 </div>
+            </div>
+         </div>
+      </div>
+      </div>
   </div>
 </section>
 
